@@ -360,7 +360,11 @@ export type ContentConstraintTypeCodeType = "Allowed" | "Actual";
 /**
  * ObservationalTimePeriodType specifies a distinct time period or point in time in SDMX. The time period can either be a Gregorian calendar period, a standard reporting period, a distinct point in time, or a time range with a specific date and duration.
  */
-export type ObservationalTimePeriodType = BasicTimePeriodType | ReportingTimePeriodType | string | string;
+export type ObservationalTimePeriodType =
+  | BasicTimePeriodType
+  | ReportingTimePeriodType
+  | string
+  | string;
 /**
  * BasicTimePeriodType contains the basic dates and calendar periods. It is a combination of the Gregorian time periods and the date time type..
  */
