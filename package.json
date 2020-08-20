@@ -1,12 +1,12 @@
 {
-  "name": "sdmx-types",
+  "name": "sdmx-json-types",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
+  "types": "index.d.ts",
+  "devDependencies": {
     "json-schema-to-typescript": "^9.1.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
